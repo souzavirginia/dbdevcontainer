@@ -1,0 +1,7 @@
+{
+  "name": "dbdevcontainer",
+  "dockerComposeFile": "../compose.yaml",
+  "service": "app",
+  "workspaceFolder": "/workspaces",
+  "shutdownAction": "stopCompose"
+}

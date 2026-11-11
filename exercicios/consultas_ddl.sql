@@ -43,7 +43,6 @@ CREATE TABLE medico_especialidade (
         REFERENCES especialidade (id)
 );
 
-
 CREATE TABLE agendamento (
     cpf_paciente     CHAR(11)      NOT NULL,
     cpf_medico       CHAR(11)      NOT NULL,
